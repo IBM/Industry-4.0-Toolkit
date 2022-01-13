@@ -1,10 +1,10 @@
 site_name: Cloud Native Toolkit
 site_description: >-
   The Cloud-Native Toolkit is an open-source collection of assets that enable application development and support teams to deliver business value quickly using Red Hat OpenShift or Kubernetes
-site_url: https://cloudnativetoolkit.dev
-site_author: Cloud-Native Toolkit development team
+site_url: https://industrytoolkit.dev
+site_author: Industry 4.0 Toolkit development team
 repo_name: ""
-repo_url: https://github.com/cloud-native-toolkit/developer-guide
+repo_url: https://github.com/industry-toolkit/developer-guide
 docs_dir: docs
 site_dir: public
 edit_uri: edit/main/docs
@@ -79,11 +79,7 @@ plugins:
         'admin/config-dashboard': 'adopting/customize/config-dashboard/dashboard.md'
         'admin/artifactory-setup': 'adopting/admin/artifactory-setup.md'
         'admin/sysdig-setup': 'adopting/admin/sysdig-setup.md'
-        'admin/terraform': 'reference/iteration-zero/iteration-zero.md'
         'admin/cluster-configuration': 'adopting/admin/cluster-config.md'
-        'admin/destroying': 'reference/iteration-zero/iteration-zero.md'
-        'starterkits': 'reference/starter-kit/starter-kit.md'
-        'starterkits/gitrepos': 'reference/starter-kit/starter-kits.md'
         'learning/foundational': 'https://cloudnative101.dev'
         'learning/ace-pipeline': 'adopting/use-cases/ace-pipeline/ace-pipeline.md'
         'contributing': 'contribute/contribute.md'
@@ -137,53 +133,11 @@ nav:
       - Static Analysis: learning/analysis.md
       - Pipeline: learning/pipeline.md
       - Image Signing: learning/image-sign.md
-  - Adopting the Toolkit:
-    - Adopting the Toolkit: adopting/adopting.md
-    - Best Practices:
-      - Best Practices: adopting/best-practices/best-practices.md
-      - IBM Cloud setup:
-        - IBM Cloud setup: adopting/best-practices/ibm-cloud-account/ibm-cloud-setup.md
-        - Installation planning: adopting/best-practices/ibm-cloud-account/plan-installation.md
-        - Access control: adopting/best-practices/ibm-cloud-account/configure-account.md
-        - Monitoring and Logs: adopting/best-practices/ibm-cloud-account/monitoring-logs.md
-      - Container Registry: adopting/best-practices/registry.md
-      - Infrastructure as Code: adopting/best-practices/infrastructure-as-code.md
-      - DevOps: adopting/best-practices/devops.md
-      - Secret management: adopting/best-practices/secret-management.md
-    - Advanced setup options:
-      - Installation options: adopting/setup/installing.md
-      - Configuring IBM Cloud based setup: adopting/setup/ibmcloud-setup.md
-      - Install IBM Cloud cluster from catalog: adopting/setup/ibmcloud-tile-cluster.md
-      - Install IBM Cloud cluster Iteration Zero: adopting/setup/ibmcloud-iz-cluster.md
-      - Install cluster elsewhere: adopting/setup/provision-cluster.md
-      - Install CodeReady Containers: adopting/setup/install-crc.md
-      - Air-gapped setup: adopting/setup/air-gapped-setup.md
-      - Install toolkit to existing cluster: adopting/setup/toolkit-install.md
-      - Post Install steps: adopting/setup/configureEnvironment.md
-    - Customizing the Toolkit:
-      - Customization overview: adopting/customize/customize.md
-      - Customizing the dashboard: adopting/customize/config-dashboard/dashboard.md
-    - Toolkit administration:
-      - Artifactory setup: adopting/admin/artifactory-setup.md
-      - Argo CD setup: adopting/admin/argo-cd-setup.md
-      - Sysdig setup: adopting/admin/sysdig-setup.md
-      - cluster configuration: adopting/admin/cluster-config.md
-    - Use Cases:
-      - User cases: adopting/use-cases/applying.md
-      - Add a new use case: adopting/use-cases/add-use-case.md
-      - Build an Operator: adopting/use-cases/operator/operator.md
-      - App Connect REST API workflow: adopting/use-cases/ace-pipeline/ace-pipeline.md
-      - GitOps with IBM Cloud Paks: adopting/use-cases/gitops/gitops-ibm-cloud-paks.md
-      - GitOps with Serverless/Events: adopting/use-cases/gitops/gitops-serverless-events.md
-      - Storefront - Cloud Native Exemplar: adopting/use-cases/storefront/storefront.md
   - Reference:
     - Reference: reference/reference.md
     - Command Line Tool: reference/cli.md
     - Developer Dashboard: reference/dashboard.md
     - Git repositories: reference/git.md
-    - Starter Kits:
-      - Starter Kit overview: reference/starter-kit/starter-kit.md
-      - Available Starter Kits: reference/starter-kit/starter-kits.md
     - Toolkit Components:
       - Toolkit components: reference/tools/tools.md
       - ArgoCD: reference/tools/argocd.md
@@ -195,12 +149,6 @@ nav:
       - IBM Container Registry: reference/tools/ibm-cloud-container-registry.md
       - IBM Key Protect: reference/tools/key-protect.md
       - Container Image Security Enforcement: reference/tools/container-image-security-enforcement.md
-    - Pipeline Task Reference:
-      - Pipelines: reference/tasks/pipelines.md
-      - placeholder: reference/tasks/placeholder.md
-    - Iteration Zero:
-      - Iteration Zero: reference/iteration-zero/iteration-zero.md
-      - Terraform modules: reference/iteration-zero/terraform.md
   - Resources:
       - Additional resources: resources/resources.md
       - IBM Cloud:

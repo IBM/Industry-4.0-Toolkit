@@ -1,4 +1,4 @@
 ---
 template: home.html
-title: Cloud Native Toolkit
+title: Industry 4.0 Toolkit
 ---

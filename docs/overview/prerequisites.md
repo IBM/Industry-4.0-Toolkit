@@ -1,6 +1,6 @@
 # Assumed Knowledge
 
-The Cloud-Native Toolkit has been developed to help developers adopt best practices when developing enterprise cloud native applications and services.
+The Industry 4.0 Toolkit has been developed to help developers adopt best practices when developing enterprise cloud native applications and services.
 
 It aims to teach developers how to adopt Continuous Integration and Continuous Delivery best practices, but assumes a basic working knowledge of the following technologies:
 
