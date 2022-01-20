@@ -1,6 +1,6 @@
 # Toolkit Reference
 
-This section provides the technical reference for the components that make up the Industry 4.0 Toolkit.
+This section provides the technical reference for the components that make up the Cloud-Native Toolkit.
 
 
 | Area | Description

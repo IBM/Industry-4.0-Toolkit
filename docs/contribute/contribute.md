@@ -2,7 +2,6 @@
 
 <!--- cSpell:ignore Kanban Zenhub repos rebased seansund csantana bwoolf lsteck -->
 
-<!--- TODO:Replace this with relevant Industry 4.0 language-->
 ## Cloud-Native Toolkit
 
 *Cloud-Native Toolkit*  is an organized effort managed by the IBM Garage to help development teams build and deliver cloud-native solutions deployed to IBM Cloud with IBM Kubernetes and Red Hat OpenShift Managed Service. The work is managed as an Open Source project and contribution is welcome from anyone that would like to participate. The following guidelines will help everyone navigate the process of contributing. (Most of these steps will generally apply to any Open Source project.)

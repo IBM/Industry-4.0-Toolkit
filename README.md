@@ -36,4 +36,3 @@ This repository has been configured to build and publish the changes automatical
 **Note:** There is a time delay between when deploy process completes and when the
 content is available on the published site.
 
-# Industry-4.0-Toolkit
